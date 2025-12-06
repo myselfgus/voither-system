@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "voither-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "voither-pacientes",
+      "database_id": "9c236b79-4c71-42c2-80b0-7b7d7d6eb8e2"
+    }
+  ]
+}
